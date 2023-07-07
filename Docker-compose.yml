@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  nginx:
+    image: olDeus/docker-swarm
+    ports:
+      - 80:80
